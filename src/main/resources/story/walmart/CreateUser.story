@@ -4,6 +4,7 @@ Scenario: Open Walmart main page
 Given I am on the main application page
 Then the page title is 'Walmart.com | Save Money. Live Better.'
 
+
 Scenario:  Create user
 When I click on an element by the xpath '//button[@aria-label='Your Account']'
 When I click on an element with the text 'Create Account'
